@@ -1,1 +1,7 @@
 /*Add your custom css here. This will override any existinc thems css*/
+
+
+.post-title2 {
+    line-height: 2;
+    text-decoration:none;
+}
