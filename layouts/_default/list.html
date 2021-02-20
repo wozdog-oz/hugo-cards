@@ -18,16 +18,16 @@
           {{ end }}
           {{ end }}
           {{ else }}
-          <img width="100%" src="{{ .Site.BaseURL }}images/{{ .Site.Params.defaultImage }}" alt="{{ .Site.Title }}">
+          <img width="250" src="{{ .Site.BaseURL }}images/{{ .Site.Params.defaultImage }}" alt="{{ .Site.Title }}">
           {{ end }}
 
           <div class="panel-body">
-            <h3 class="panel-title pull-left">{{ .Title | truncate 25 }}</h3><span class="post-meta pull-right"><small>{{ .Date.Format "January 2, 2006" }}</small></span>
+            <h3 class="panel-title pull-left">{{ .Title | truncate 25 }}</h3><span class="post-meta pull-left"><small>{{ .Date.Format "2 January 2006" }}</small></span>
           </div>
 
-          <div class="panel-body"><small>
+          <!-- <div class="panel-body"><small>
               {{ .Summary | plainify | truncate 180 }}</small>
-          </div>
+          </div> -->
         </div>
       </a>
     </div>
